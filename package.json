@@ -1,0 +1,29 @@
+{
+  "name": "socially",
+  "version": "1.0.0",
+  "description": "Real-time chatrooms",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server",
+    "build": "react-scripts build"
+  },
+  "author": "Tejas Vedak",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.24.0",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tejasvedak/Socially.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tejasvedak/Socially/issues"
+  },
+  "homepage": "https://github.com/tejasvedak/Socially#readme"
+}
